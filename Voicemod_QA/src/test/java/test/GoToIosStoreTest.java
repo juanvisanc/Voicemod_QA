@@ -1,9 +1,7 @@
 package test;
 
 import org.testng.Assert;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.Test;
-
 import configuration.TestSetConfig;
 import pageobject.HomePage;
 import pageobject.IosStorePage;

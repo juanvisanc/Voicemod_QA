@@ -25,6 +25,12 @@ public class OurappsConst {
 	public static final By android = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/div[1]/a[1]/img[1]");
 	public static final By ios = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/div[1]/a[2]/img[1]");
 	
-
+	public static final By title2 = By.xpath("//body/section[2]/div[1]/div[2]/h2[1]");
+	public static final By title3 = By.xpath("//h3[contains(text(),'A voice changer for Tiktok, Instagram, Stories and')]");
+	public static final By title4 = By.xpath("//h3[contains(text(),'Dozens of video filters and face masks for your vi')]");
+	public static final By title5 = By.xpath("//h3[contains(text(),'Create original content and share it with anyone')]");
+	public static final By title6 = By.xpath("//body/section[9]/div[1]/div[2]/h2[1]");
+	public static final By title7 = By.xpath("//h2[contains(text(),'Download Voicemod Clips App for Android and iPhone')]");
+	
 
 }

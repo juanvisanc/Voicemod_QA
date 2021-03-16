@@ -62,5 +62,58 @@ public class OurappsPage extends BasePageObjectConfig{
 		clickOnElement(OurappsConst.ios);
 	}
 	
+	/**
+	 * Method to click on the Voice Changer for PC menu option
+	 */
+	public void clickOnForPCButton() {
+		clickOnElement(OurappsConst.forPc);
+	}
+	
+	/**
+	 * Method to navigate to second section
+	 */
+	public void navigateSecondSection() {
+		scrollToElement(OurappsConst.title2);
+	}
+	
+	/**
+	 * Method to navigate to third section
+	 */
+	public void navigateThirdSection() {
+		scrollToElement(OurappsConst.title3);
+	}
+	/**
+	 * Method to navigate to fourth section
+	 */
+	public void navigateFourthSection() {
+		scrollToElement(OurappsConst.title4);
+	}
+	/**
+	 * Method to navigate to Fifth section
+	 */
+	public void navigateFifthSection() {
+		scrollToElement(OurappsConst.title5);
+	}
+	/**
+	 * Method to navigate to sixth section
+	 */
+	public void navigateSixthSection() {
+		scrollToElement(OurappsConst.title6);
+	}
+	/**
+	 * Method to navigate to seventh section
+	 */
+	public void navigateSeventhSection() {
+		scrollToElement(OurappsConst.title7);
+	}
+	
+	/**
+	 * Method to navigate to top
+	 */
+	public void navigateTop() {
+		scrollToTheTop();
+	}
+	
+	
 	
 }

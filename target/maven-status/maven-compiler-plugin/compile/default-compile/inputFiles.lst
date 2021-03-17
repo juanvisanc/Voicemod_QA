@@ -1,0 +1,12 @@
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/constant/OurappsConst.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/configuration/BasePageObjectConfig.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/constant/HomeConst.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/configuration/DriverConfig.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/constant/IosStoreConst.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/pageobject/IosStorePage.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/configuration/TestSetConfig.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/configuration/ConstantConfig.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/pageobject/AndroidStorePage.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/pageobject/OurappsPage.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/constant/AndroidStoreConst.java
+/home/juanfsanchez/eclipse-workspace/QA_process/QA_process/src/main/java/pageobject/HomePage.java

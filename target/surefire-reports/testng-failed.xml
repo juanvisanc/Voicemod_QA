@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test thread-count="5" verbose="0" name="Acceptance-Suite(failed)">
+    <classes>
+      <class name="test.ChangeLanguageTest">
+        <methods>
+          <include name="beforeAllConfiguration"/>
+          <include name="closeWindow"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="changeLanguage"/>
+          <include name="setUpConfiguration"/>
+        </methods>
+      </class> <!-- test.ChangeLanguageTest -->
+      <class name="test.GoToIosStoreTest">
+        <methods>
+          <include name="beforeAllConfiguration"/>
+          <include name="closeWindow"/>
+          <include name="tearDown"/>
+          <include name="afterMethod"/>
+          <include name="setUpConfiguration"/>
+          <include name="goToPlayStoreTest"/>
+        </methods>
+      </class> <!-- test.GoToIosStoreTest -->
+    </classes>
+  </test> <!-- Acceptance-Suite(failed) -->
+</suite> <!-- Failed suite [Suite] -->

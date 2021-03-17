@@ -15,21 +15,44 @@ public class SoundboardPage extends BasePageObjectConfig{
 		super(driver);
 	}
 
+	/**
+	 * Method to wait title
+	 */
 	public boolean waitTitleIsVisible() {
 		return waitForElementIsVisible(SoundboardConst.title);
 	}
+	
+	/**
+	 * Check that the title is visible 
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(SoundboardConst.title);
 	}
+	
+	/**
+	 * Method to wait text
+	 */
 	public boolean waitTextIsVisible() {
 		return waitForElementIsVisible(SoundboardConst.text);
 	}
+	
+	/**
+	 * Check that the text is visible 
+	 */
 	public boolean checkTextIsVisible() {
 		return isElementVisible(SoundboardConst.text);
 	}
+	
+	/**
+	 * Method to wait button
+	 */
 	public boolean waitButtonIsVisible() {
 		return waitForElementIsVisible(SoundboardConst.button);
 	}
+	
+	/**
+	 * Check that the button is visible 
+	 */
 	public boolean checkButtonIsVisible() {
 		return isElementVisible(SoundboardConst.button);
 	}

@@ -14,22 +14,38 @@ public class BlogPage extends BasePageObjectConfig{
 	public BlogPage(WebDriver driver) {
 		super(driver);
 	}
-
+	
+	/**
+	 * Method to wait title
+	 */
 	public boolean waitTitleIsVisible() {
 		return waitForElementIsVisible(BlogConst.title);
 	}
+	
+	/**
+	 * Method to check title is visible
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(BlogConst.title);
 	}
 	
+	/**
+	 * Method to check entry1 is visible
+	 */
 	public boolean checkTEntry1IsVisible() {
 		return isElementVisible(BlogConst.entry1);
 	}
 	
+	/**
+	 * Method to check entry3 is visible
+	 */
 	public boolean checkTEntry3IsVisible() {
 		return isElementVisible(BlogConst.entry3);
 	}
 	
+	/**
+	 * Method to check entry5 is visible
+	 */
 	public boolean checkTEntry5IsVisible() {
 		return isElementVisible(BlogConst.entry5);
 	}

@@ -15,21 +15,44 @@ public class VoicelabPage extends BasePageObjectConfig{
 		super(driver);
 	}
 
+	/**
+	 * Method to wait title
+	 */
 	public boolean waitTitleIsVisible() {
 		return waitForElementIsVisible(VoicelabConst.title);
 	}
+	
+	/**
+	 * Check that the title is visible 
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(VoicelabConst.title);
 	}
+	
+	/**
+	 * Method to wait text1
+	 */
 	public boolean waitTextIsVisible() {
 		return waitForElementIsVisible(VoicelabConst.text);
 	}
+	
+	/**
+	 * Check that the text1 is visible 
+	 */
 	public boolean checkTextIsVisible() {
 		return isElementVisible(VoicelabConst.text);
 	}
+	
+	/**
+	 * Method to wait button
+	 */
 	public boolean waitButtonIsVisible() {
 		return waitForElementIsVisible(VoicelabConst.button);
 	}
+	
+	/**
+	 * Check that the button is visible 
+	 */
 	public boolean checkButtonIsVisible() {
 		return isElementVisible(VoicelabConst.button);
 	}

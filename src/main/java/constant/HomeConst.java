@@ -11,7 +11,7 @@ public class HomeConst {
 	public static final By voicemodLogo = By.id("logo");
 	public static final By forPc = By.xpath("//a[@title='Voice Changer for PC']");
 	public static final By soundboard = By.xpath("//a[contains(text(),'Soundboard')]");
-	public static final By voicelab = By.xpath("//body/div[1]/div[1]/div[1]/div[2]/ul[1]/li[3]/a[1]");
+	public static final By voicelab = By.xpath("//a[contains(text(),'Voicelab')]");
 	public static final By FAQ = By.xpath("//a[contains(text(),'FAQ')]");
 	public static final By ourApps = By.xpath("//a[contains(text(),'Our Apps')]");
 	public static final By blog = By.xpath("//a[contains(text(),'Blog')]");

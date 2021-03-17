@@ -25,7 +25,7 @@ public class HomePage extends BasePageObjectConfig{
 	*---------------------------------------------------------------------*/
 	
 	/**
-	 * Navigate to the Selenium web
+	 * Navigate to the Voicemod web
 	 */
 	public void navigateToVoicemodWeb() {
 		navigateTo("https://www.voicemod.net");
@@ -53,75 +53,131 @@ public class HomePage extends BasePageObjectConfig{
 		return isElementVisible(HomeConst.forPc);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkSoundboardIsVisible() {
 		return isElementVisible(HomeConst.soundboard);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkVoicelabIsVisible() {
 		return isElementVisible(HomeConst.voicelab);
 	}
+	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 
 	public boolean checkFAQIsVisible() {
 		return isElementVisible(HomeConst.FAQ);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkOurAppsIsVisible() {
 		return isElementVisible(HomeConst.ourApps);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkBlogIsVisible() {
 		return isElementVisible(HomeConst.blog);
 	}
 
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkEnglishLanguageIsVisible() {
 		return isElementVisible(HomeConst.englishLanguage);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkGermanLanguageIsVisible() {
 		return isElementVisible(HomeConst.germanLanguage);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkFrenchLanguageIsVisible() {
 		return isElementVisible(HomeConst.frenchLanguage);
 	}
 	
+	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkJapaneseLanguageIsVisible() {
 		return isElementVisible(HomeConst.japaneseLanguage);
 	}
 	
+	/**
+	 * Check that the menu entries are visible 
+	 */
 	public boolean checkRussianLanguageIsVisible() {
 		return isElementVisible(HomeConst.russianLanguage);
 	}
 	
+	/**
+	 * Check that the title is visible 
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(HomeConst.title);
 	}
 	
+	/**
+	 * Check that the subtitle is visible 
+	 */
 	public boolean checkSubtitleIsVisible() {
 		return isElementVisible(HomeConst.subtitle);
 	}
 	
+	/**
+	 * Check that the button is visible 
+	 */
 	public boolean checkButtonIsVisible() {
 		return isElementVisible(HomeConst.button);
 	}
 	
+	/**
+	 * Check that the header button is visible 
+	 */
 	public boolean checkHeaderButtonIsVisible() {
 		return isElementVisible(HomeConst.headerButton);
 	}
 	
+	/**
+	 * Check that the  title german language is visible 
+	 */
 	public boolean checkGermanTitleIsVisible() {
 		return isElementVisible(HomeConst.germanTitle);
 	}
 	
+	/**
+	 * Check that the  subtitle german language is visible 
+	 */
 	public boolean checkGermanSubtitleIsVisible() {
 		return isElementVisible(HomeConst.germanSubtitle);
 	}
 	/*---------------------------FOOTER--------------------------------*/
 	
+	/**
+	 * Check that the privacity is visible 
+	 */
 	public boolean checkPrivacityIsVisible() {
 		return isElementVisible(HomeConst.privacity);
 	}
 	
+	/**
+	 * Check that the cookies is visible 
+	 */
 	public boolean checkCookiesIsVisible() {
 		return isElementVisible(HomeConst.cookies);
 	}

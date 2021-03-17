@@ -15,21 +15,44 @@ public class ForPCPage extends BasePageObjectConfig{
 		super(driver);
 	}
 
+	/**
+	 * Method to wait title
+	 */
 	public boolean waitTitleIsVisible() {
 		return waitForElementIsVisible(ForPCConst.title);
 	}
+	
+	/**
+	 * Method to check title is visible
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(ForPCConst.title);
 	}
+	
+	/**
+	 * Method to wait text
+	 */
 	public boolean waitTextIsVisible() {
 		return waitForElementIsVisible(ForPCConst.text);
 	}
+	
+	/**
+	 * Method to check text is visible
+	 */
 	public boolean checkTextIsVisible() {
 		return isElementVisible(ForPCConst.text);
 	}
+	
+	/**
+	 * Method to wait button
+	 */
 	public boolean waitButtonIsVisible() {
 		return waitForElementIsVisible(ForPCConst.button);
 	}
+	
+	/**
+	 * Method to check button is visible
+	 */
 	public boolean checkButtonIsVisible() {
 		return isElementVisible(ForPCConst.button);
 	}

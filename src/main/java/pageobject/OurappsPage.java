@@ -15,33 +15,72 @@ public class OurappsPage extends BasePageObjectConfig{
 		super(driver);
 	}
 
+	/**
+	 * Method to wait title
+	 */
 	public boolean waitTitleIsVisible() {
 		return waitForElementIsVisible(OurappsConst.title);
 	}
+	
+	/**
+	 * Check that the title is visible 
+	 */
 	public boolean checkTitleIsVisible() {
 		return isElementVisible(OurappsConst.title);
 	}
+	
+	/**
+	 * Method to wait text1
+	 */
 	public boolean waitText1IsVisible() {
 		return waitForElementIsVisible(OurappsConst.text1);
 	}
+	
+	/**
+	 * Check that the text1 is visible 
+	 */
 	public boolean checkText1IsVisible() {
 		return isElementVisible(OurappsConst.text1);
 	}
+	
+	/**
+	 * Method to wait text2
+	 */
 	public boolean waitText2IsVisible() {
 		return waitForElementIsVisible(OurappsConst.text2);
 	}
+	
+	/**
+	 * Check that the text2 is visible 
+	 */
 	public boolean checkText2IsVisible() {
 		return isElementVisible(OurappsConst.text2);
 	}
+	
+	/**
+	 * Method to wait ios
+	 */
 	public boolean waitIosIsVisible() {
 		return waitForElementIsVisible(OurappsConst.ios);
 	}
+	
+	/**
+	 * Check that the ios is visible 
+	 */
 	public boolean checkIosIsVisible() {
 		return isElementVisible(OurappsConst.ios);
 	}
+	
+	/**
+	 * Method to wait android
+	 */
 	public boolean waitAndroidIsVisible() {
 		return waitForElementIsVisible(OurappsConst.android);
 	}
+	
+	/**
+	 * Check that the android is visible 
+	 */
 	public boolean checkAndroidIsVisible() {
 		return isElementVisible(OurappsConst.android);
 	}

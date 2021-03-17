@@ -108,6 +108,14 @@ public class OurappsPage extends BasePageObjectConfig{
 	}
 	
 	/**
+	 * Method to sleep
+	 */
+	public void sleep() {
+		sleep(2);
+	}
+	
+	
+	/**
 	 * Method to navigate to top
 	 */
 	public void navigateTop() {

@@ -6,9 +6,9 @@
       <class name="test.MenuEntriesTest">
         <methods>
           <include name="beforeAllConfiguration"/>
-          <include name="goToPlayStoreTest"/>
           <include name="closeWindow"/>
           <include name="tearDown"/>
+          <include name="menuEntriesTest"/>
           <include name="afterMethod"/>
           <include name="setUpConfiguration"/>
         </methods>

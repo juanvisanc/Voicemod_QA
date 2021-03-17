@@ -3,9 +3,12 @@ package test;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import configuration.TestSetConfig;
+import pageobject.BlogPage;
 import pageobject.ForPCPage;
 import pageobject.HomePage;
 import pageobject.OurappsPage;
+import pageobject.SoundboardPage;
+import pageobject.VoicelabPage;
 
 /**
  * 
@@ -19,7 +22,7 @@ public class MenuEntriesTest extends TestSetConfig{
 	 * Test to go to ios store
 	 */
 	@Test
-	public void goToPlayStoreTest() {
+	public void menuEntriesTest() {
 		// Create a new instance of the HomePage with the Driver
 		HomePage home = new HomePage(getDriver());
 				
@@ -96,6 +99,62 @@ public class MenuEntriesTest extends TestSetConfig{
 		forPc.navigateTop();
 		
 		forPc.clickOnSoundboardButton();
+		
+		SoundboardPage soundboard = new SoundboardPage(getDriver());
+		
+		soundboard.waitTitleIsVisible();
+		soundboard.waitTextIsVisible();
+		soundboard.waitButtonIsVisible();
+		
+		Assert.assertTrue(soundboard.checkTitleIsVisible(), "The title is not displayed");
+		Assert.assertTrue(soundboard.checkTextIsVisible(), "The text is not displayed");
+		Assert.assertTrue(soundboard.checkButtonIsVisible(), "The button is not displayed");
+		
+		soundboard.navigateSecondSection();
+		soundboard.navigateThirdSection();
+		soundboard.navigateFourthSection();
+		soundboard.navigateFifthSection();
+
+		soundboard.navigateTop();
+		
+		soundboard.clickOnvoicelabButton();
+		
+		VoicelabPage voicelab = new VoicelabPage(getDriver());
+		
+		voicelab.waitTitleIsVisible();
+		voicelab.waitTextIsVisible();
+		voicelab.waitButtonIsVisible();
+		
+		Assert.assertTrue(voicelab.checkTitleIsVisible(), "The title is not displayed");
+		Assert.assertTrue(voicelab.checkTextIsVisible(), "The text is not displayed");
+		Assert.assertTrue(voicelab.checkButtonIsVisible(), "The button is not displayed");
+		
+		voicelab.navigateSecondSection();
+		voicelab.navigateThirdSection();
+		voicelab.navigateFourthSection();
+		voicelab.navigateFifthSection();
+		voicelab.navigateSixthSection();
+		voicelab.navigateSeventhSection();
+
+		voicelab.navigateTop();
+		
+		voicelab.clickOnBlogButton();
+		
+		BlogPage blog = new BlogPage(getDriver());
+		
+		blog.waitTitleIsVisible();
+		
+		Assert.assertTrue(blog.checkTitleIsVisible(), "The title is not displayed");
+		
+		blog.navigateSecondEntry();
+		Assert.assertTrue(blog.checkTEntry1IsVisible(), "The entry1 is not displayed");
+		blog.navigateFourthEntry();
+		Assert.assertTrue(blog.checkTEntry3IsVisible(), "The entry3 is not displayed");
+		blog.checkTEntry5IsVisible();
+		Assert.assertTrue(blog.checkTEntry5IsVisible(), "The entry5 is not displayed");
+		
+		blog.navigateTop();
+		
 		
 	}
 

@@ -1,63 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="12" total="17" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6998" started-at="2021-03-16T22:50:04 CET" finished-at="2021-03-16T22:50:11 CET">
+  <suite name="Suite" duration-ms="219848" started-at="2021-03-17T09:39:23 CET" finished-at="2021-03-17T09:43:03 CET">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6998" started-at="2021-03-16T22:50:04 CET" finished-at="2021-03-16T22:50:11 CET">
-      <class name="test.MenuEntriesTest">
-        <test-method status="PASS" signature="setUpConfiguration()[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="setUpConfiguration" is-config="true" duration-ms="3593" started-at="2021-03-16T22:50:00 CET" finished-at="2021-03-16T22:50:04 CET">
+    <test name="Acceptance-Suite" duration-ms="219848" started-at="2021-03-17T09:39:23 CET" finished-at="2021-03-17T09:43:03 CET">
+      <class name="test.GetVoicemodTest">
+        <test-method status="PASS" signature="setUpConfiguration()[pri:0, instance:test.GetVoicemodTest@672872e1]" name="setUpConfiguration" is-config="true" duration-ms="4606" started-at="2021-03-17T09:39:18 CET" finished-at="2021-03-17T09:39:23 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpConfiguration -->
-        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="beforeAllConfiguration" is-config="true" duration-ms="3" started-at="2021-03-16T22:50:04 CET" finished-at="2021-03-16T22:50:04 CET">
+        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.GetVoicemodTest@672872e1]" name="beforeAllConfiguration" is-config="true" duration-ms="2" started-at="2021-03-17T09:39:23 CET" finished-at="2021-03-17T09:39:23 CET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[public void test.MenuEntriesTest.goToPlayStoreTest()]]>
+                <![CDATA[public void test.GetVoicemodTest.testGetVoicemod()]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeAllConfiguration -->
-        <test-method status="PASS" signature="goToPlayStoreTest()[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="goToPlayStoreTest" duration-ms="6360" started-at="2021-03-16T22:50:04 CET" finished-at="2021-03-16T22:50:10 CET">
+        <test-method status="PASS" signature="testGetVoicemod()[pri:0, instance:test.GetVoicemodTest@672872e1]" name="testGetVoicemod" duration-ms="9969" started-at="2021-03-17T09:39:23 CET" finished-at="2021-03-17T09:39:33 CET">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- goToPlayStoreTest -->
-        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-16T22:50:10 CET" finished-at="2021-03-16T22:50:10 CET">
+        </test-method> <!-- testGetVoicemod -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.GetVoicemodTest@672872e1]" name="afterMethod" is-config="true" duration-ms="9" started-at="2021-03-17T09:39:33 CET" finished-at="2021-03-17T09:39:33 CET">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=goToPlayStoreTest status=SUCCESS method=MenuEntriesTest.goToPlayStoreTest()[pri:0, instance:test.MenuEntriesTest@506ae4d4] output={null}]]]>
+                <![CDATA[[TestResult name=testGetVoicemod status=SUCCESS method=GetVoicemodTest.testGetVoicemod()[pri:0, instance:test.GetVoicemodTest@672872e1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="closeWindow()[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="closeWindow" is-config="true" duration-ms="581" started-at="2021-03-16T22:50:10 CET" finished-at="2021-03-16T22:50:11 CET">
+        <test-method status="PASS" signature="closeWindow()[pri:0, instance:test.GetVoicemodTest@672872e1]" name="closeWindow" is-config="true" duration-ms="135" started-at="2021-03-17T09:43:03 CET" finished-at="2021-03-17T09:43:03 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWindow -->
-        <test-method status="FAIL" signature="tearDown()[pri:0, instance:test.MenuEntriesTest@506ae4d4]" name="tearDown" is-config="true" duration-ms="3" started-at="2021-03-16T22:50:11 CET" finished-at="2021-03-16T22:50:11 CET">
-          <exception class="org.openqa.selenium.NoSuchSessionException">
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:test.GetVoicemodTest@672872e1]" name="tearDown" is-config="true" duration-ms="6" started-at="2021-03-17T09:43:03 CET" finished-at="2021-03-17T09:43:03 CET">
+          <exception class="org.openqa.selenium.NoSuchWindowException">
             <message>
-              <![CDATA[Tried to run command without establishing a connection
+              <![CDATA[Browsing context has been discarded
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'P117', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-136-generic', java.version: '1.8.0_282'
+System info: host: 'P117', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-137-generic', java.version: '1.8.0_282'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 32640, moz:profile: /tmp/rust_mozprofilextlVgA, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-136-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b01a8e6e-5493-4c30-8340-acc82ae52458]]>
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8332, moz:profile: /tmp/rust_mozprofilescxMYM, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-137-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4f39d0fd-18af-4712-a925-bb42d9bec916]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+              <![CDATA[org.openqa.selenium.NoSuchWindowException: Browsing context has been discarded
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'P117', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-136-generic', java.version: '1.8.0_282'
+System info: host: 'P117', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '4.15.0-137-generic', java.version: '1.8.0_282'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 32640, moz:profile: /tmp/rust_mozprofilextlVgA, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-136-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: b01a8e6e-5493-4c30-8340-acc82ae52458
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 86.0, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210222142601, moz:geckodriverVersion: 0.28.0, moz:headless: false, moz:processID: 8332, moz:profile: /tmp/rust_mozprofilescxMYM, moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, platformVersion: 4.15.0-137-generic, rotatable: false, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 4f39d0fd-18af-4712-a925-bb42d9bec916
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -92,11 +92,123 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchSessionException -->
+          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
+      </class> <!-- test.GetVoicemodTest -->
+      <class name="test.GoToPlayStoreTest">
+        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.GoToPlayStoreTest@3f56875e]" name="beforeAllConfiguration" is-config="true" duration-ms="4" started-at="2021-03-17T09:40:03 CET" finished-at="2021-03-17T09:40:03 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.GoToPlayStoreTest.goToPlayStoreTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllConfiguration -->
+        <test-method status="PASS" signature="goToPlayStoreTest()[pri:0, instance:test.GoToPlayStoreTest@3f56875e]" name="goToPlayStoreTest" duration-ms="31002" started-at="2021-03-17T09:40:03 CET" finished-at="2021-03-17T09:40:34 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPlayStoreTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.GoToPlayStoreTest@3f56875e]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-17T09:40:34 CET" finished-at="2021-03-17T09:40:34 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToPlayStoreTest status=SUCCESS method=GoToPlayStoreTest.goToPlayStoreTest()[pri:0, instance:test.GoToPlayStoreTest@3f56875e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.GoToPlayStoreTest -->
+      <class name="test.MenuEntriesTest">
+        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.MenuEntriesTest@fd07cbb]" name="beforeAllConfiguration" is-config="true" duration-ms="4" started-at="2021-03-17T09:41:05 CET" finished-at="2021-03-17T09:41:05 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.MenuEntriesTest.menuEntriesTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllConfiguration -->
+        <test-method status="PASS" signature="menuEntriesTest()[pri:0, instance:test.MenuEntriesTest@fd07cbb]" name="menuEntriesTest" duration-ms="118015" started-at="2021-03-17T09:41:05 CET" finished-at="2021-03-17T09:43:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menuEntriesTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.MenuEntriesTest@fd07cbb]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-17T09:43:03 CET" finished-at="2021-03-17T09:43:03 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=menuEntriesTest status=SUCCESS method=MenuEntriesTest.menuEntriesTest()[pri:0, instance:test.MenuEntriesTest@fd07cbb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- test.MenuEntriesTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="test.ChangeLanguageTest">
+        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.ChangeLanguageTest@32910148]" name="beforeAllConfiguration" is-config="true" duration-ms="1" started-at="2021-03-17T09:39:33 CET" finished-at="2021-03-17T09:39:33 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.ChangeLanguageTest.changeLanguage()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllConfiguration -->
+        <test-method status="PASS" signature="changeLanguage()[pri:0, instance:test.ChangeLanguageTest@32910148]" name="changeLanguage" duration-ms="29581" started-at="2021-03-17T09:39:33 CET" finished-at="2021-03-17T09:40:03 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- changeLanguage -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.ChangeLanguageTest@32910148]" name="afterMethod" is-config="true" duration-ms="2" started-at="2021-03-17T09:40:03 CET" finished-at="2021-03-17T09:40:03 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=changeLanguage status=SUCCESS method=ChangeLanguageTest.changeLanguage()[pri:0, instance:test.ChangeLanguageTest@32910148] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.ChangeLanguageTest -->
+      <class name="test.GoToIosStoreTest">
+        <test-method status="PASS" signature="beforeAllConfiguration(java.lang.reflect.Method)[pri:0, instance:test.GoToIosStoreTest@2b4bac49]" name="beforeAllConfiguration" is-config="true" duration-ms="11" started-at="2021-03-17T09:40:34 CET" finished-at="2021-03-17T09:40:34 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.GoToIosStoreTest.goToPlayStoreTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeAllConfiguration -->
+        <test-method status="PASS" signature="goToPlayStoreTest()[pri:0, instance:test.GoToIosStoreTest@2b4bac49]" name="goToPlayStoreTest" duration-ms="31070" started-at="2021-03-17T09:40:34 CET" finished-at="2021-03-17T09:41:05 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToPlayStoreTest -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:test.GoToIosStoreTest@2b4bac49]" name="afterMethod" is-config="true" duration-ms="1" started-at="2021-03-17T09:41:05 CET" finished-at="2021-03-17T09:41:05 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=goToPlayStoreTest status=SUCCESS method=GoToIosStoreTest.goToPlayStoreTest()[pri:0, instance:test.GoToIosStoreTest@2b4bac49] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.GoToIosStoreTest -->
+    </test> <!-- Acceptance-Suite -->
+  </suite> <!-- Suite -->
 </testng-results>

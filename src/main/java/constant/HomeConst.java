@@ -22,6 +22,7 @@ public class HomeConst {
 	public static final By russianLanguage = By.xpath("//span[contains(text(),'Русский')]");
 	public static final By headerButton = By.xpath("//header/div[1]/div[1]/div[3]/a[1]");
 	public static final By cookiesButton = By.id("onetrust-accept-btn-handler");
+	public static final By cookiesDiv = By.xpath("//body/div[@id='onetrust-consent-sdk']/div[@id='onetrust-banner-sdk']/div[1]/div[1]");
 	
 	/*--------------------------------------------------------------------*
 	|      BODY                                            

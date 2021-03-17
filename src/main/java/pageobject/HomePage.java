@@ -156,7 +156,7 @@ public class HomePage extends BasePageObjectConfig{
 	 * Method to wait cookies close
 	 */
 	public void waitCookiesClose() {
-		waitForElementIsNotVisible(HomeConst.cookiesButton);
+		waitForElementIsNotVisible(HomeConst.cookiesDiv);
 	}
 	
 	/**

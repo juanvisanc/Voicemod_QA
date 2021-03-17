@@ -7,6 +7,7 @@
 	        <class name="test.ChangeLanguageTest"/>
 	        <class name="test.GoToPlayStoreTest"/>
 	        <class name="test.GoToIosStoreTest"/>
+	        <class name="test.MenuEntriesTest"/>
 	    </classes>
     </test>
 </suite> <!-- Suite -->

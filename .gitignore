@@ -3,7 +3,8 @@
 .settings
 .project
 /bin/
-target/
+#/target/
 test-output/
 test-output/junitreports/
-resources/screenshot/
+/target/
+/resources/screenshot/

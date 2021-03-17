@@ -12,9 +12,9 @@
 
 This project consists basically of two parts: main and tests. 
 
-- **Main: ** First, it contains the configuration to run Selenium and the basic functions and methods to use in Pages. Here are also the Const (where we declare the elements and their locators) and the Pages (the logic that is used on each page).
+- **Main:** First, it contains the configuration to run Selenium and the basic functions and methods to use in Pages. Here are also the Const (where we declare the elements and their locators) and the Pages (the logic that is used on each page).
 The suite is located inside the resources folder
-- **Tests: ** The tests to be run
+- **Tests:** The tests to be run
 
 #### Run test
     $ git clone https://github.com/juanvisanc/Voicemod_QA.git

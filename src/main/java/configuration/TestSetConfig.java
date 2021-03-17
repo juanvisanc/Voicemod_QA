@@ -28,6 +28,9 @@ public abstract class TestSetConfig {
 	/** Driver instance. */
 	public static WebDriver driver;
 	
+	String os = "linux";
+	String browser = "FIREFOX";
+	
 	/** Logger class initialization. */
 	Level logLevelDefault = Level.DEBUG;
 	
@@ -75,14 +78,6 @@ public abstract class TestSetConfig {
 		}
 		LOGGER.info(ConstantConfig.LOG_SEPARATOR);
 	}
-	/**
-	 * Method to quit Selenium. Always remember to quit.
-	 */
-	//@AfterTest
-	//protected void closeWindow() {
-	//	LOGGER.info("[ Driver Configuration ] - Quit this Driver");
-	//	driver.close();
-	//}
 
 	/**
 	 * Method to quit Selenium. Always remember to quit.
@@ -90,7 +85,7 @@ public abstract class TestSetConfig {
 	@AfterSuite
 	protected void tearDown() {
 		LOGGER.info("[ Driver Configuration ] - Quit this Driver, closing every instance associated");
-		driver.close();
+		driver.close(); 
 		driver.quit(); 
 	}
 	
@@ -104,7 +99,7 @@ public abstract class TestSetConfig {
 	 * @throws CustomErrorException
 	 */
 	void setUpDriver() {
-		driver = DriverConfig.buildInstance();
+		driver = DriverConfig.buildInstance(browser, os);
 	}
 	
 	

@@ -21,7 +21,7 @@ public class VoicelabConst {
 	*---------------------------------------------------------------------*/
 	public static final By title = By.xpath("//h1[contains(text(),'VOICE MAKER & EFFECTS GENERATOR')]");
 	public static final By text = By.xpath("//p[contains(text(),'The Voicemod Voicelab lets you create custom voice')]");
-	public static final By button = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]");
+	public static final By button = By.className("download-button");
 	
 	public static final By title2 = By.xpath("//h2[contains(text(),'GET CREATIVE WITH THE BEST VOICE GENERATOR')]");
 	public static final By title3 = By.xpath("//h3[contains(text(),'HOW TO SET UP THE VOICEMOD VOICELAB')]");

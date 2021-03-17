@@ -248,7 +248,7 @@ public abstract class BasePageObjectConfig {
     public void scrollToElement(By element) {
         try {
             ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(element));
-            sleep(3);
+            sleep(2);
         } catch (Exception ex) {
         	LOGGER.error("Cannot Scroll to the element: [" + element + "] by JavaScript: " , ex);
         }
@@ -260,7 +260,7 @@ public abstract class BasePageObjectConfig {
     public void scrollToTheTop() {
         try {
         	executeJsScript("window.scrollTo(0, 0)");
-        	sleep(3);
+        	sleep(2);
         } catch (Exception ex) {
         	LOGGER.error("Cannot ScrollTop the page, by JavaScript: " + ex);
         }
@@ -272,7 +272,7 @@ public abstract class BasePageObjectConfig {
     public void scrollToTheBottom() {
         try {
         	executeJsScript("window.scrollTo(0, document.body.scrollHeight)");
-        	sleep(3);
+        	sleep(2);
         } catch (Exception ex) {
         	LOGGER.error("Cannot ScrollBottom the page, by JavaScript: " +ex);
         }

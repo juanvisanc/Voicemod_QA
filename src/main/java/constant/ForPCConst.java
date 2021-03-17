@@ -21,7 +21,7 @@ public class ForPCConst {
 	*---------------------------------------------------------------------*/
 	public static final By title = By.xpath("//h1[contains(text(),'VOICE CHANGER FOR GAMES AND CHAT')]");
 	public static final By text = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/p[1]");
-	public static final By button = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]");
+	public static final By button = By.className("download-button");
 	
 	public static final By title2 = By.xpath("//h2[contains(text(),'THE #1 VOICE CHANGING APP FOR WINDOWS')]");
 	public static final By title3 = By.xpath("//h3[contains(text(),'HOW TO CHANGE YOUR VOICE: SET UP VOICEMOD VOICE CH')]");

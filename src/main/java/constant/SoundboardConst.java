@@ -21,7 +21,7 @@ public class SoundboardConst {
 	*---------------------------------------------------------------------*/
 	public static final By title = By.xpath("//h1[contains(text(),'SOUNDBOARD FOR ONLINE GAMES AND CHAT')]");
 	public static final By text = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/p[1]");
-	public static final By button = By.xpath("//body/section[1]/div[1]/div[1]/div[1]/div[1]/div[1]/a[1]");
+	public static final By button = By.xpath("//a[@class='voicemod-button' and contains(., 'GET VOICEMOD FREE')]");
 	
 	public static final By title2 = By.xpath("//h2[contains(text(),'EXPLORE THE BEST FREE SOUNDBOARD FOR WINDOWS')]");
 	public static final By title3 = By.xpath("//h3[contains(text(),'HOW TO SET UP THE VOICEMOD SOUNDBOARD')]");

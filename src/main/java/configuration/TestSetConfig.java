@@ -17,7 +17,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
@@ -79,11 +78,11 @@ public abstract class TestSetConfig {
 	/**
 	 * Method to quit Selenium. Always remember to quit.
 	 */
-	@AfterTest
-	protected void closeWindow() {
-		LOGGER.info("[ Driver Configuration ] - Quit this Driver");
-		driver.close();
-	}
+	//@AfterTest
+	//protected void closeWindow() {
+	//	LOGGER.info("[ Driver Configuration ] - Quit this Driver");
+	//	driver.close();
+	//}
 
 	/**
 	 * Method to quit Selenium. Always remember to quit.
